@@ -1,8 +1,8 @@
 import React, { ChangeEvent, Fragment } from 'react';
 
-interface Props {
+type Props = {
   onChange: (event: ChangeEvent<HTMLTextAreaElement>) => void;
-}
+};
 
 const TextField: React.FC<Props> = ({ onChange }) => (
   <Fragment>

@@ -20,7 +20,7 @@ const Form: React.FC = () => {
   };
   
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <TextField onChange={handleChange} />
       <button
         className="btn btn-primary btn-lg btn-submit"
