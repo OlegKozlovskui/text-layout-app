@@ -27,7 +27,7 @@ const Form: React.FC = () => {
         type="submit"
         disabled={!text}
       >
-        Layout Page
+        LAYOUT
       </button>
     </form>
   );

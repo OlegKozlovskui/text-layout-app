@@ -12,7 +12,7 @@ const ColSwitcher: React.FC<Props> = ({ colActive, onChange }) => (
       className={`btn btn-success ${colActive === 1 ? 'active' : ''}`}
       onClick={() => onChange(1)}
     >
-      1 Column
+      Single Column
     </button>
     <button
       type="button"
