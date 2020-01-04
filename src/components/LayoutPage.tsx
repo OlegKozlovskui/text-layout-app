@@ -32,7 +32,7 @@ const LayoutPage: React.FC = () => {
   };
 
   const handleColChange = (e: ChangeEvent<HTMLTextAreaElement>, idx: number) => {
-    const updatedColumns = columns.map((c,i) => {
+    const updatedColumns = columns.map((c, i) => {
       if (i === idx) {
         return e.target.value;
       }
