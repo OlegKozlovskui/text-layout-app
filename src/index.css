@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  margin-bottom: 40px;
+}
+
+.form {
+  /*text-align: right;*/
+}
+
+.btn-submit {
+  margin-top: 20px;
+}
+
+textarea {
+  min-height: 200px;
+}
